@@ -1,4 +1,5 @@
 // /api/upload/route.js
+'use client';
 import { NextRequest, NextResponse } from 'next/server'
 import { v2 as cloudinary } from 'cloudinary'
 
