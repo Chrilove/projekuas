@@ -1,4 +1,5 @@
 // pages/index.js
+'use client';
 import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Script from 'next/script'
