@@ -423,7 +423,7 @@ export default function AdminOrdersPage() {
                   Menampilkan {startIndex + 1} - {Math.min(endIndex, filteredOrders.length)} dari {filteredOrders.length} pesanan
                   {searchTerm && (
                     <span className="ms-2">
-                      <span className="badge bg-info">Pencarian: "{searchTerm}"</span>
+                      <span className="badge bg-info">Pencarian: &quot;{searchTerm}&quot;</span>
                     </span>
                   )}
                 </div>
@@ -465,7 +465,7 @@ export default function AdminOrdersPage() {
                               <td colSpan="8" className="text-center py-4">
                                 {filteredOrders.length === 0 && searchTerm ? (
                                   <>
-                                    Tidak ada pesanan yang cocok dengan pencarian "{searchTerm}"
+                                    Tidak ada pesanan yang cocok dengan pencarian &quot;{searchTerm}&quot;
                                     <br/>
                                     <button 
                                       className="btn btn-sm btn-outline-primary mt-2"
@@ -841,7 +841,7 @@ export default function AdminOrdersPage() {
 
                         {selectedOrder.status === 'shipped' && (
                           <div className="alert alert-warning">
-                            <small>💡 <strong>Tips:</strong> Setelah diklik "Tandai Sebagai Sampai", order akan menunggu konfirmasi dari reseller atau otomatis selesai dalam beberapa hari.</small>
+                            <small>💡 <strong>Tips:</strong> Setelah diklik &quot;Tandai Sebagai Sampai&quot;, order akan menunggu konfirmasi dari reseller atau otomatis selesai dalam beberapa hari.</small>
                           </div>
                         )}
                       </div>
