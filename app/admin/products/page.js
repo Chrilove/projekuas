@@ -685,7 +685,7 @@ export default function ProductsPage() {
                       <div className="col-md-6">
                         {imagePreview && (
                           <div className="text-center">
-                            <Images
+                            <img
                               src={imagePreview}
                               alt="Preview"
                               className="Images-thumbnail"
